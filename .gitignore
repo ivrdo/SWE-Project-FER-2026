@@ -25,6 +25,8 @@ Vagrantfile
 # python
 __pycache__
 .venv
+
+# Tajne
 .env
 
 # npm
