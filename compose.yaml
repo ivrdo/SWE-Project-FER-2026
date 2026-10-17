@@ -1,8 +1,14 @@
 services:
-  python:
-    build: ./python
+  python-django:
+    build: python-django
     volumes:
-      - ./python:/app
+      - ./python-django:/usr/src/app
+    environment:
+      DB_PASSWORD: ${DB_PASSWORD}
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
 
   frontend:
     build: ./frontend
