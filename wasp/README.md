@@ -12,7 +12,8 @@ Općenito potrebno je instalirati sljedeći software:
 
 - Na Windowsu je potrebno instalirati IntelliJ IDEA Ultimate i Docker Desktop. Različite upute su već dane.
 - Na otvaranje direktorija projekta, IntelliJ bi trebao ponuditi "Reopen in Container"
-- Provesti set up naredbe
+- Provesti set up naredbe, ali bez `docker compose up -d db`: baza se pokreće sama
+  s containerom, a Node i Wasp CLI su već instalirani
 
 ## MacOS
 
