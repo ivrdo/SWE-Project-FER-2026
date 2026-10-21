@@ -22,6 +22,7 @@ Općenito je potrebno instalirati sljedeći software:
     - Git: https://git-scm.com/install/windows
     - IntelliJ IDEA: https://www.jetbrains.com/idea/download/?section=windows, https://www.youtube.com/watch?v=E2QMyGgYLoM
     - Docker Desktop: https://docs.docker.com/desktop/setup/install/windows-install/
+- Postaviti svoj `user.name` i `user.email` **obavezno** s `git.config --global user.name <ime>` i `git.config --global user.email <ime>`
 - Na otvaranje projektnog direktorija, ignorirati popup-e i pronaći `.devcontainer/devcontainer.json`, otvara se ovakav prozor:
   ![](./docs/instalacija/devcontainer.png)
 - Odabrati plavu kockicu u gornjem lijevom kutu
@@ -36,6 +37,7 @@ Općenito je potrebno instalirati sljedeći software:
     - Git: https://git-scm.com/install/mac
     - IntelliJ IDEA: https://www.jetbrains.com/idea/download/?section=mac, https://www.youtube.com/watch?v=E2QMyGgYLoM
     - Docker Desktop: https://docs.docker.com/desktop/setup/install/mac-install/
+- Postaviti svoj `user.name` i `user.email` **obavezno** s `git.config --global user.name <ime>` i `git.config --global user.email <ime>`
 - Na otvaranje projektnog direktorija, ignorirati popup-e i pronaći `.devcontainer/devcontainer.json`, otvara se ovakav prozor:
   ![](./docs/instalacija/devcontainer.png)
 - Odabrati plavu kockicu u gornjem lijevom kutu
@@ -52,6 +54,7 @@ Općenito je potrebno instalirati sljedeći software:
     - Git: https://git-scm.com/install/linux
     - IntelliJ IDEA: https://www.jetbrains.com/idea/download/?section=linux, https://www.youtube.com/watch?v=E2QMyGgYLoM
     - Docker Desktop: https://docs.docker.com/desktop/setup/install/linux/
+- Postaviti svoj `user.name` i `user.email` **obavezno** s `git.config --global user.name <ime>` i `git.config --global user.email <ime>`
 - Na otvaranje projektnog direktorija, ignorirati popup-e i pronaći `.devcontainer/devcontainer.json`, otvara se ovakav prozor:
   ![](./docs/instalacija/devcontainer.png)
 - Odabrati plavu kockicu u gornjem lijevom kutu
