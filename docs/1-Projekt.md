@@ -1,10 +1,6 @@
 # 1. Opseg projekta
 
-**Cilj:** Objasniti odobreni projektni zadatak vlastitim riječima tima. Čitatelj treba razumjeti problem, ciljane korisnike, cilj projekta i njegove granice bez prethodnog čitanja detaljnih zahtjeva.
-
 ## 1.1 Problem i cilj projekta
-
-**Cilj:** Jasno razgraničiti problem koji se rješava od predloženog rješenja i stvarne koristi za korisnika.
 
 **Problem.** Slušatelji glazbe nove izvođače i koncerte otkrivaju na više odvojenih mjesta: na društvenim mrežama, plakatima, streaming servisima i od prijatelja. Zbog toga lako propuste koncert izvođača koje vole, a koji se održava u njihovoj blizini. Glazba se ocjenjuje na jednom mjestu, informacije o koncertima nalaze se na drugom, a evidencija prijava i dolazaka ne postoji ili se vodi odvojeno. S druge strane, manji izvođači često ne znaju gdje imaju publiku ni na kojem bi mjestu nastup bio dobro posjećen, a upravitelji klubova i dvorana teško planiraju program i prate odaziv. Prijedlozi koncerata, potvrde mjesta i evidencija dolazaka najčešće se dogovaraju neformalno, porukama i pozivima.
 
@@ -13,8 +9,6 @@
 **Očekivana korist.** Slušatelji lakše pronalaze koncerte izvođača koje vole. Izvođači dobivaju uvid u svoju publiku, a upravitelji mjesta pouzdanu evidenciju prijava i dolazaka umjesto neformalnih dogovora. Sustav preporuka ostvaren je jednostavnim metodama i samo je jedna od značajki koja olakšava otkrivanje izvođača i koncerata.
 
 ## 1.2 Ciljani korisnici i dionici
-
-**Cilj:** Utvrditi osobe, uloge i organizacije čije potrebe i interesi određuju projektni zadatak.
 
 | Skupina korisnika ili dionika | Potreba ili interes relevantan za ovaj projekt |
 | --- | --- |
@@ -26,8 +20,6 @@
 | Nastavnik i asistent kolegija | Funkcionalan, dokumentiran i provjerljiv sustav koji zadovoljava zahtjeve zadatka (dionici koji nisu akteri aplikacije). |
 
 ## 1.3 Granice projekta
-
-**Cilj:** Jasno definirati granice sustava — što je obuhvaćeno odobrenim zadatkom, što je svjesno izostavljeno ili odgođeno te o kojim vanjskim uslugama sustav izravno ovisi.
 
 **Uključeno:** vlastiti katalog izvođača, albuma, pjesama i mjesta održavanja; društveni dio (praćenje, ocjene, recenzije, „sviđa mi se“, feed); preporuke izvođača i koncerata jednostavnim metodama; prijedlozi, potvrda i otkazivanje koncerata; prijave na koncert s QR ulaznicom i evidencijom dolazaka; obavijesti e-poštom i unutar aplikacije uz osvježavanje u stvarnom vremenu; prijava neprimjerenog sadržaja i moderacija; verifikacija uloga izvođača i upravitelja mjesta; statistika za izvođače, upravitelje mjesta i administratore; privatnost (preuzimanje podataka i brisanje računa). Aplikacija je web aplikacija prilagođena mobilnim uređajima.
 
@@ -43,15 +35,9 @@
 
 ## 1.4 Postojeći pristupi i opravdanost projekta
 
-**Cilj:** Objasniti kako korisnici trenutačno rješavaju problem i koja preostala potreba opravdava odobreni projekt.
-
 Slušatelji koncerte danas često prate preko aplikacija za otkrivanje koncerata, primjerice Bandsintowna. Prema opisu servisa, korisnik prati izvođače (pojedinačno ili usklađivanjem s glazbenim servisima) i dobiva obavijest kada izvođač najavi nastup u njegovoj blizini [1][2]. To rješava jedan dio problema, otkrivanje koncerata. U opisima koje smo pregledali ne navodi se potvrda prijedloga koncerta od strane upravitelja mjesta ni evidencija prijava i dolazaka na ulazu. Upravo tu potrebu Sonar nastoji pokriti na istom mjestu na kojem se glazba otkriva i ocjenjuje.
 
 **Izvori**
 
 1. Bandsintown Help Center, „What are followers and how do fans become followers?“, https://help.artists.bandsintown.com/en/articles/2580590-what-are-followers-and-how-do-fans-become-followers (pristupljeno 20. 10. 2026.).
 2. Bandsintown Concerts, opis aplikacije u App Storeu, https://apps.apple.com/app/id471394851 (pristupljeno 20. 10. 2026.).
-
----
-
->**Završna provjera:** Opis problema, cilj projekta, korisnici i dionici, granice opsega te postojeći pristupi međusobno su usklađeni. Navedene koristi ne predstavljaju neprovjerene tvrdnje, a uključene i izostavljene funkcionalnosti odgovaraju odobrenom projektnom zadatku.
