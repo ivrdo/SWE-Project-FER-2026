@@ -1,5 +1,5 @@
-// Dev Container (VS Code s ekstenzijom Dev Containers ili IntelliJ IDEA Ultimate),
-// npr. za Windows, gdje Wasp inače radi samo unutar WSL-a.
+// Dev Container
+// Ovo nam olakšava život, instalira u stvorenom okruženju node i wasp.
 {
   "name": "sonar (Wasp)",
   "dockerComposeFile": ["../compose.yaml", "compose.yaml"],
