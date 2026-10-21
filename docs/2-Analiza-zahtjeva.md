@@ -74,8 +74,8 @@
 
 | ID uloge ili aktera | Odnos prema sustavu | Relevantni zahtjevi |
 | --- | --- | --- |
-| A-01 Neregistrirani posjetitelj | Pregledava javnu kartu mjesta održavanja i koncerata te popularne izvođače. Za sve ostalo mora se prijaviti. | F-001 |
-| A-02 Slušatelj | Središnji korisnik: uređuje profil, ocjenjuje, recenzira, prati, prijavljuje se na koncerte i prima preporuke. Uključuje svakog prijavljenog korisnika (zahtjevi označeni općenito kao korisnik). | F-002 – F-004, F-008, F-009, F-011 – F-013, F-015 – F-018, F-024, F-025, F-027, F-029, F-033, F-035 – F-038, F-046, F-047 |
+| A-01 Neregistrirani posjetitelj | Pregledava javnu kartu mjesta održavanja i koncerata te popularne izvođače. Za sve ostalo mora se prijaviti. | F-001, F-002 |
+| A-02 Slušatelj | Središnji korisnik: uređuje profil, ocjenjuje, recenzira, prati, prijavljuje se na koncerte i prima preporuke. Uključuje svakog prijavljenog korisnika (zahtjevi označeni općenito kao korisnik). | F-003 – F-004, F-008, F-009, F-011 – F-013, F-015 – F-018, F-024, F-025, F-027, F-029, F-033, F-035 – F-038, F-046, F-047 |
 | A-03 Verificirani izvođač | Uz mogućnosti slušatelja predlaže koncerte, službeno odgovara na recenzije i vidi statistiku. Ulogu dobiva nakon provjere moderatora. | F-005, F-014, F-021, F-023, F-039, F-040 |
 | A-04 Verificirani upravitelj mjesta | Zastupa jedno mjesto, unosi kapacitet, obrađuje prijedloge koncerata i skenira QR ulaznice. Ulogu dobiva nakon provjere moderatora. | F-006, F-022, F-023, F-026, F-028, F-041 |
 | A-05 Moderator | Obrađuje prijave neprimjerenog sadržaja i zahtjeve za verifikaciju uloga; radnje se bilježe u zapisnik. | F-030, F-034 |
