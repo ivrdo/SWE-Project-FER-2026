@@ -1,10 +1,6 @@
 # 2. Analiza zahtjeva
 
-**Cilj:** Iz odobrenog opsega projekta izvesti prepoznatljive, prioritetizirane i provjerljive zahtjeve. Zahtjevi se mogu mijenjati; pri završnoj predaji moraju odražavati dogovorenu aplikaciju. Izvori, odluke i poveznice u primjerima kolegija nastavni su scenariji, a ne projektni zapisi.
-
 ## 2.1 Funkcijski zahtjevi
-
-**Cilj:** Navesti što aplikacija mora omogućiti korisnicima, odakle pojedina mogućnost proizlazi i koji se opažljivi rezultat smatra prihvaćanjem.
 
 | ID | Opis | Prioritet | Izvor | Kriteriji prihvaćanja |
 | --- | --- | --- | --- | --- |
@@ -60,8 +56,6 @@
 
 ## 2.2 Nefunkcijski zahtjevi
 
-**Cilj:** Odrediti važna svojstva kvalitete i uvjete rada odobrene aplikacije na način koji tim može razumno provjeriti.
-
 | ID | Opis | Prioritet | Izvor | Način provjere |
 | --- | --- | --- | --- | --- |
 | NF-01 | Lokacija slušatelja osjetljiv je osobni podatak. Izvođačima i upraviteljima mjesta prikazuje se isključivo u zbirnom obliku i nikada na razini pojedinog slušatelja. Vrijednosti ispod propisanog minimuma (npr. deset slušatelja) ne prikazuju se. | Visok | Odobreni zadatak | Nijedan odgovor sučelja namijenjen izvođaču ili upravitelju ne sadrži lokaciju pojedinog slušatelja. Test s manje od deset pratitelja ne vraća broj. |
@@ -78,8 +72,6 @@
 
 ## 2.3 Dionici i akteri
 
-**Cilj:** Utvrditi uloge koje utječu na zahtjeve i razlikovati dionike od aktera koji komuniciraju s aplikacijom.
-
 | ID uloge ili aktera | Odnos prema sustavu | Relevantni zahtjevi |
 | --- | --- | --- |
 | A-01 Neregistrirani posjetitelj | Pregledava javnu kartu mjesta održavanja i koncerata te popularne izvođače. Za sve ostalo mora se prijaviti. | F-001 |
@@ -94,8 +86,6 @@
 ---
 
 ## 2.4 Ograničenja i pretpostavke
-
-**Cilj:** Zabilježiti projektno specifične granice i pretpostavke koje utječu na zahtjeve ili oblikovanje, zajedno s njihovim izvorom i praktičnom posljedicom. Ovo je njihovo mjerodavno mjesto u dokumentaciji.
 
 | ID | Tip | Opis ograničenja ili pretpostavke | Izvor | Inženjerska posljedica / Provjera |
 | --- | --- | --- | --- | --- |
@@ -114,8 +104,6 @@
 
 ## 2.5 Značajne promjene zahtjeva
 
-**Cilj:** Sačuvati razlog promjena koje mijenjaju dogovoreni opseg, prioritet ili kriterije prihvaćanja, uz istodobno održavanje prethodnih zahtjeva ažurnima.
-
 | Datum | ID zahtjeva | Promjena i razlog | Dogovoreno s / dokaz |
 | --- | --- | --- | --- |
 | 14.10.2026. | F-014, F-021 – F-028, F-039, F-042, NF-08, NF-09 | Prijedlog teme dorađen prema povratnoj informaciji asistenta: dodan središnji proces u domeni (koncerti i prijave na koncert sa stanjima), razrađena uloga izvođača (službeni odgovor, statistika ocjena), preporuke ostaju jednostavne, dodani statistika administratora, rad u stvarnom vremenu i prilagodba mobilnim uređajima. | Asistent (e-pošta), 14.10.2026. |
@@ -123,8 +111,6 @@
 ---
 
 ## 2.6 Sljedivost zahtjeva
-
-**Cilj:** Osigurati dvosmjernu sljedivost — povezati zahtjeve s opisanim ponašanjem, dijelovima sustava koji ih ostvaruju te ispitivanjem ili drugom provjerom. 
 
 | ID zahtjeva | Obrazac uporabe / modul | Arhitekturna realizacija | Ispitivanje ili provjera |
 | --- | --- | --- | --- |
@@ -189,14 +175,8 @@
 
 ## 2.7 Pregled zahtjeva
 
-**Cilj:** Zabilježiti važne povratne informacije o zahtjevima i odluke koje iz njih proizlaze na dvije formalne kontrolne točke projekta, u 7. i 14. tjednu.
-
 | Kontrolna točka | Povratna informacija ili nalaz | Odluka o zahtjevu ili opsegu |
 | --- | --- | --- |
 | Iteracija 1 | [Povratna informacija] | [Odluka; vidi odjeljak 2.5] |
 | Demo 2 | [Povratna informacija] | [Odluka; vidi odjeljak 2.5] |
 | Završni pregled | [Povratna informacija] | [Odluka; vidi odjeljak 2.5] |
-
----
-
->**Završna provjera:** Zahtjevi su aktualni, provjerljivi i povezani. Svaki važan zahtjev moguće je pratiti od njegova opisa i ponašanja preko mjesta realizacije u sustavu do odgovarajućeg ispitivanja ili druge provjere. Poveznice koriste stvarne identifikatore i nazive iz projektne dokumentacije.
