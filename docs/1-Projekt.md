@@ -29,6 +29,7 @@
 - Izvorna mobilna aplikacija: dovoljna je web aplikacija prilagođena mobilnim uređajima.
 - Složenije metode strojnog učenja: preporuke ostaju jednostavne jer težište projekta nije na strojnom učenju. Napredniji pristup moguć je kao nadogradnja ako ostane vremena.
 - Plaćanje i prodaja ulaznica: zadatak ih ne traži.
+- Kupnja albuma i pjesama: aplikacija ne prodaje glazbu jer bi to zahtijevalo ugovore s izdavačkim kućama i nositeljima prava, što projekt ne može ostvariti.
 - Poželjno, ovisno o preostalom vremenu: dodavanje izvođača na zahtjev, službeni odgovor izvođača na recenzije, liste pjesama, dodavanje u kalendar (.ics), izvoz statistike u CSV i skeniranje QR kodova kamerom.
 
 **Vanjske ovisnosti:** Google kao pružatelj identiteta (OpenID Connect / OAuth 2.0); MusicBrainz (izvođači, albumi, pjesme i mjesta s koordinatama) i Last.fm (oznake i popularnost izvođača) kao izvori podataka za katalog; usluga za prikaz karte (npr. Google Maps); e-pošta za obavijesti i podsjetnike; Google Kalendar kao neobavezna mogućnost. Aplikacija pri radu čita samo iz vlastite baze, pa nedostupnost MusicBrainza ili Last.fma sprječava samo dodavanje novih izvođača.
