@@ -36,9 +36,16 @@
 
 ## 1.4 Postojeći pristupi i opravdanost projekta
 
-Slušatelji koncerte danas često prate preko aplikacija za otkrivanje koncerata, primjerice Bandsintowna. Prema opisu servisa, korisnik prati izvođače (pojedinačno ili usklađivanjem s glazbenim servisima) i dobiva obavijest kada izvođač najavi nastup u njegovoj blizini [1][2]. To rješava jedan dio problema, otkrivanje koncerata. U opisima koje smo pregledali ne navodi se potvrda prijedloga koncerta od strane upravitelja mjesta ni evidencija prijava i dolazaka na ulazu. Upravo tu potrebu Sonar nastoji pokriti na istom mjestu na kojem se glazba otkriva i ocjenjuje.
+Slušatelji danas koncerte i glazbu otkrivaju kroz više odvojenih servisa. Bandsintown služi za otkrivanje koncerata: korisnik prati izvođače (pojedinačno ili usklađivanjem s glazbenim servisima) i dobiva obavijest kada izvođač najavi nastup u njegovoj blizini [1][2]. Bandcamp je internetska trgovina glazbom i zajednica u kojoj obožavatelji otkrivaju izvođače i izravno ih podupiru [3], a izvođači svojim obožavateljima mogu slati poruke ciljane prema lokaciji [4]. Artcore je tržnica na kojoj izvođači i nezavisne izdavačke kuće izravno prodaju glazbu, zamišljena ponajprije za DJ-eve i izvođače elektroničke glazbe [5]. Entrio je domaća platforma za prodaju ulaznica koja se ubraja među vodeće hrvatske platforme tog tipa [6], a ulaznice za koncerte prodaju se putem njezina sustava [7].
+
+Ti servisi pokrivaju dijelove problema: otkrivanje koncerata, otkrivanje i kupnju glazbe te prodaju ulaznica. U opisima koje smo pregledali ne navodi se potvrda prijedloga koncerta od strane upravitelja mjesta ni evidencija prijava i dolazaka na ulazu. Upravo tu potrebu Sonar nastoji pokriti. Na istom mjestu spaja otkrivanje glazbe i zajednicu oko nje (kao Bandcamp) te obavijesti o koncertima u blizini (kao Bandsintown), a dodaje potvrdu koncerata od strane upravitelja mjesta te prijave s evidencijom dolazaka. Kako je navedeno u odjeljku 1.3, Sonar ne prodaje ni glazbu ni ulaznice.
 
 **Izvori**
 
 1. Bandsintown Help Center, „What are followers and how do fans become followers?“, https://help.artists.bandsintown.com/en/articles/2580590-what-are-followers-and-how-do-fans-become-followers (pristupljeno 20. 10. 2026.).
 2. Bandsintown Concerts, opis aplikacije u App Storeu, https://apps.apple.com/app/id471394851 (pristupljeno 20. 10. 2026.).
+3. Bandcamp, „About us“, https://www.bandcamp.com/about (pristupljeno 21. 10. 2026.).
+4. Bandcamp, „Bandcamp for Artists“, https://bandcamp.com/artists (pristupljeno 21. 10. 2026.).
+5. Attack Magazine, „Artcore launches a new online marketplace“, https://www.attackmagazine.com/news/artcore-launches-a-new-online-marketplace/ (pristupljeno 21. 10. 2026.).
+6. IQ Magazine, „Leading Croatian ticketing firms merge“, https://www.iqmagazine.com/?p=369596 (pristupljeno 21. 10. 2026.).
+7. Novi list, „Zbog velikog interesa za koncert, u prodaju su puštene dodatne ulaznice za Urban&4“, https://www.novilist.hr/?p=1579948 (16. 12. 2025.; pristupljeno 21. 10. 2026.).
